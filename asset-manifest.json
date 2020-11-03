@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/yeongbba/react-nweet/static/css/main.55bfdf87.chunk.css",
+    "main.js": "/yeongbba/react-nweet/static/js/main.6b596c11.chunk.js",
+    "main.js.map": "/yeongbba/react-nweet/static/js/main.6b596c11.chunk.js.map",
+    "runtime-main.js": "/yeongbba/react-nweet/static/js/runtime-main.03696014.js",
+    "runtime-main.js.map": "/yeongbba/react-nweet/static/js/runtime-main.03696014.js.map",
+    "static/js/2.6a878af2.chunk.js": "/yeongbba/react-nweet/static/js/2.6a878af2.chunk.js",
+    "static/js/2.6a878af2.chunk.js.map": "/yeongbba/react-nweet/static/js/2.6a878af2.chunk.js.map",
+    "index.html": "/yeongbba/react-nweet/index.html",
+    "precache-manifest.a47053a9f190eb41eadaba505634f57b.js": "/yeongbba/react-nweet/precache-manifest.a47053a9f190eb41eadaba505634f57b.js",
+    "service-worker.js": "/yeongbba/react-nweet/service-worker.js",
+    "static/css/main.55bfdf87.chunk.css.map": "/yeongbba/react-nweet/static/css/main.55bfdf87.chunk.css.map",
+    "static/js/2.6a878af2.chunk.js.LICENSE.txt": "/yeongbba/react-nweet/static/js/2.6a878af2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03696014.js",
+    "static/js/2.6a878af2.chunk.js",
+    "static/css/main.55bfdf87.chunk.css",
+    "static/js/main.6b596c11.chunk.js"
+  ]
+}
