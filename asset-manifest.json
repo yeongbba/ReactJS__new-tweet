@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-nweet/static/css/main.55bfdf87.chunk.css",
-    "main.js": "/react-nweet/static/js/main.6aaca985.chunk.js",
-    "main.js.map": "/react-nweet/static/js/main.6aaca985.chunk.js.map",
+    "main.js": "/react-nweet/static/js/main.33e20dca.chunk.js",
+    "main.js.map": "/react-nweet/static/js/main.33e20dca.chunk.js.map",
     "runtime-main.js": "/react-nweet/static/js/runtime-main.b96f55fa.js",
     "runtime-main.js.map": "/react-nweet/static/js/runtime-main.b96f55fa.js.map",
     "static/js/2.f1c63c7c.chunk.js": "/react-nweet/static/js/2.f1c63c7c.chunk.js",
     "static/js/2.f1c63c7c.chunk.js.map": "/react-nweet/static/js/2.f1c63c7c.chunk.js.map",
     "index.html": "/react-nweet/index.html",
-    "precache-manifest.eaa025c650ab3c40a6233a427693d89f.js": "/react-nweet/precache-manifest.eaa025c650ab3c40a6233a427693d89f.js",
+    "precache-manifest.d53ece4cbe6add01c6ced653adc43630.js": "/react-nweet/precache-manifest.d53ece4cbe6add01c6ced653adc43630.js",
     "service-worker.js": "/react-nweet/service-worker.js",
     "static/css/main.55bfdf87.chunk.css.map": "/react-nweet/static/css/main.55bfdf87.chunk.css.map",
     "static/js/2.f1c63c7c.chunk.js.LICENSE.txt": "/react-nweet/static/js/2.f1c63c7c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b96f55fa.js",
     "static/js/2.f1c63c7c.chunk.js",
     "static/css/main.55bfdf87.chunk.css",
-    "static/js/main.6aaca985.chunk.js"
+    "static/js/main.33e20dca.chunk.js"
   ]
 }

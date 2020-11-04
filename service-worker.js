@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-nweet/precache-manifest.eaa025c650ab3c40a6233a427693d89f.js"
+  "/react-nweet/precache-manifest.d53ece4cbe6add01c6ced653adc43630.js"
 );
 
 self.addEventListener('message', (event) => {
