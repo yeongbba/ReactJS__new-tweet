@@ -6,7 +6,7 @@ import NweetFactory from "components/NweetFactory";
 const Home = ({ userObj }) => {
   const [nweets, setNweets] = useState([]);
   useEffect(() => {
-    dbService
+    let changeDB = dbService
       .collection("nweets")
       .orderBy("createdAt", "desc")
       .onSnapshot((snapshot) => {
@@ -16,6 +16,9 @@ const Home = ({ userObj }) => {
         }));
         setNweets(nweetArray);
       });
+    return () => {
+      changeDB && changeDB();
+    };
   }, []);
   return (
     <div className="container">

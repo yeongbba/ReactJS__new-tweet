@@ -19,6 +19,7 @@ const NweetFactory = ({ userObj }) => {
         .child(`${userObj.uid}/${uuidv4()}`);
       const response = await attachmentRef.putString(attachment, "data_url");
       attachmentUrl = await response.ref.getDownloadURL();
+      console.log(attachmentUrl);
     }
     const nweetObj = {
       text: nweet,
@@ -66,7 +67,7 @@ const NweetFactory = ({ userObj }) => {
         />
         <input type="submit" value="&rarr;" className="factoryInput__arrow" />
       </div>
-      <label for="attach-file" className="factoryInput__label">
+      <label htmlFor="attach-file" className="factoryInput__label">
         <span>Add photos</span>
         <FontAwesomeIcon icon={faPlus} />
       </label>
@@ -86,6 +87,7 @@ const NweetFactory = ({ userObj }) => {
             style={{
               backgroundImage: attachment,
             }}
+            alt="backgroundImg"
           />
           <div className="factoryForm__clear" onClick={onClearAttachment}>
             <span>Remove</span>

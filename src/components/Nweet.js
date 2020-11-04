@@ -10,7 +10,9 @@ const Nweet = ({ nweetObj, isOwner }) => {
     const ok = window.confirm("Are you sure you want to delete this nweet?");
     if (ok) {
       await dbService.doc(`nweets/${nweetObj.id}`).delete();
-      await storageService.refFromURL(nweetObj.attachmentUrl).delete();
+      if (nweetObj.attachmentUrl) {
+        await storageService.refFromURL(nweetObj.attachmentUrl).delete();
+      }
     }
   };
   const toggleEditing = () => setEditing((prev) => !prev);
@@ -50,9 +52,11 @@ const Nweet = ({ nweetObj, isOwner }) => {
       ) : (
         <>
           <h4>{nweetObj.text}</h4>
-          {nweetObj.attachmentUrl && <img src={nweetObj.attachmentUrl} />}
+          {nweetObj.attachmentUrl && (
+            <img src={nweetObj.attachmentUrl} alt="sendImg" />
+          )}
           {isOwner && (
-            <div class="nweet__actions">
+            <div className="nweet__actions">
               <span onClick={onDeleteClick}>
                 <FontAwesomeIcon icon={faTrash} />
               </span>
