@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# New Tweet Project
+<br>  
+  
+Firebase의 real time database를 이용해 실시간 채팅 서비스를 구현한 프로젝트입니다.  
+로그인(OAuth), 이미지 업로드, 실시간 채팅, 유저 프로필 기능 등을 제작하였습니다.
+<br>
+<br>
+  
+### STACKS : React, Firebase(OAuth, Storage, Database), Javascript, HTML5, CSS
+  
+React와 Firebase를 주기술로 사용하였습니다.
+<br>
+<br>  
+  
+### ACHIEVEMENT GOAL
+  
+- React Hook으로 상태 관리하기  
+- Firebase의 OAuth 기능으로 로그인 인증 처리하기  
+- Firebase의 Storage로 이미지 업로드 기능 구현하기
+- Firebase의 Real Time Database 기능으로 실시간으로 데이터 반영하기  
+<br>
 
-## Available Scripts
+### BLOG LINK - https://blog.naver.com/samm162/222168315995
+  
+New Tweet 프로젝트의 자세한 이야기를 보고 싶다면, 블로그 링크를 클릭해 주세요. 
+<br>
+<br>
 
-In the project directory, you can run:
+### SCREENSHOTS  
 
-### `yarn start`
+<div>
+<img src="https://user-images.githubusercontent.com/67185299/108635584-809ab780-74c3-11eb-92f5-07d62118d39a.png" width="700"></img>  
+<img src="https://user-images.githubusercontent.com/67185299/108635586-82fd1180-74c3-11eb-9bec-928b6d507e75.png" width="700"></img>  
+<img src="https://user-images.githubusercontent.com/67185299/108635591-842e3e80-74c3-11eb-83b6-8b264ba94eba.png" width="700"></img>  
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
